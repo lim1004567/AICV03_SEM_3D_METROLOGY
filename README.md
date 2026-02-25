@@ -11,7 +11,7 @@
 
 ## 🛠️ 개발 환경 및 기술 스택
 
-** **하드웨어**: Google Colab (L4 GPU / CPU 환경 벤치마크)
+* **하드웨어**: Google Colab (L4 GPU / CPU 환경 벤치마크)
 * **프레임워크**: PyTorch
 * **모델**: Multimodal Transformer - Small (MMT-S)
 * **핵심 기법**:
@@ -23,15 +23,15 @@
 
 ## 🧠 핵심 모델 아키텍처: Why MMT-S?
 
-1. **Pre-LN (norm_first=True) 구조 채택**:
+### 1. **Pre-LN (norm_first=True) 구조 채택**:
 * 기존 Post-LN 방식의 그래디언트 불안정성 문제를 해결하여 깊은 층에서도 안정적인 학습 수렴을 유도했습니다.
 
 
-2. **Multimodal Integration**:
+### 2. **Multimodal Integration**:
 * 서로 다른 스케일을 가진 이미지와 센서 데이터를 Transformer 내부에서 융합하여 단일 모달리티(Single-modal) 대비 높은 통찰력을 확보했습니다.
 
 
-3. **Multi-task Dual Head**:
+### 3. **Multi-task Dual Head**:
 * **Diagnosis Head (Classification)**: 현재 상태 4단계(Normal, Caution, Warning, Danger) 판정
 * **Prognosis Head (Regression)**: 30초 후의 장비 상태 수치(0.0~3.0) 예측
 
