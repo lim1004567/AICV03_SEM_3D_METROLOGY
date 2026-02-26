@@ -56,7 +56,11 @@ https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=115&topMenu=
 
 ## 📊 실험 결과 및 비교 분석
 
-### 1. 정량적 지표 (Paper vs Ours)
+### 1. 성능개선 및 정량적 지표 (Paper vs Ours)
+
+<img width="809" height="461" alt="image" src="https://github.com/user-attachments/assets/842d8bf7-f2a5-43c3-a2b2-dded5319ea5a" />
+<img width="810" height="457" alt="image" src="https://github.com/user-attachments/assets/9b8f2aaa-90b1-41dc-a4c6-0cae066acbe6" />
+
 
 논문 수치(SOTA)와 베이스라인을 모두 상회하는 고득점을 기록했습니다.
 
