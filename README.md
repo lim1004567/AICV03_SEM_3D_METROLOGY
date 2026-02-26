@@ -62,7 +62,7 @@ https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=115&topMenu=
 
 | 지표 (Metric) | Paper MMT | Baseline | **Ours (MMT-S)** | 분석 결과 |
 | --- | --- | --- | --- | --- |
-| **F1-Score (⬆)** | 0.8944 | 0.91xx | **0.9231** | **약 3.2% 성능 향상** |
+| **F1-Score (⬆)** | 0.8944 | 0.9134 | **0.9271** | **3.66% 성능 향상** |
 | **RMSE (⬇)** | 0.2875 | 0.35xx | **0.33** | **안정적인 예보 정밀도** |
 
 ### 2. 경량화 성능 (INT8 Quantization)
