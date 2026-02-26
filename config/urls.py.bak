@@ -1,0 +1,21 @@
+﻿from django.contrib import admin
+from django.urls import path, include
+from api import views
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    
+    
+    path("reports/", views.reports_view, name="reports"),path("", include("api.urls")),
+path("api/", include("api.urls")),
+    path("admin/", admin.site.urls),
+]
+
+# DEBUG=True일 때만 /static/ 아래로 STATICFILES_DIRS 를 서빙
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL)
+
+
+
