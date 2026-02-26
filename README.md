@@ -31,7 +31,7 @@
 * **INT8 Post-Training Quantization**: 모델 경량화 및 추론 가속화
 * **Pre-Layer Normalization**: 학습 수렴 안정성 확보
 
-## 사용 데이터셋
+## 📁 사용 데이터셋
 
 AI Hub: 제조현장 이송장치의 열화 예지보전 멀티모달 데이터
 
